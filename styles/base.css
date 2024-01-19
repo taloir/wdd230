@@ -32,14 +32,16 @@ h1{
 nav{
     display:grid;
     grid-template-rows: 5;
+    text-align: center;
     background-color:darkslategray;
     font-size: 50px;
-    height: 300px;
+    list-style-type: none;
 }
 
 a{
     color:aliceblue;
     text-align: center;
+    margin: 15px;
 }
 
 h3{
@@ -68,4 +70,5 @@ footer{
     align-items: center;
     justify-content: center;
     height: 90px;
+    color: aliceblue;
 }

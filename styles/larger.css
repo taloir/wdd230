@@ -1,0 +1,9 @@
+@media screen and (min-width: 640px){
+    h1 {
+        font-size: 70px;
+    }
+
+    nav {
+        display: flex;
+    }
+}

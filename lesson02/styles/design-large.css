@@ -1,0 +1,26 @@
+@media screen and (min-width: 900px){
+    h1 {
+        font-size: 70px;
+    }
+
+	header, main, footer {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+	main{
+		grid-template-columns: 1fr;
+	}
+
+	#one{
+		grid-column: 1 / 2;
+	}
+
+	#two{
+		grid-column: 2 / 3;
+	}
+
+	#three{
+		grid-column: 3 / 4;
+	}
+}

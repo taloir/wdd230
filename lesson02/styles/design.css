@@ -1,0 +1,55 @@
+body {
+	font-family: Roboto, helvetica, sans-serif;
+	background-color:lightgrey;
+}
+
+header,
+main,
+footer {
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+h3 {
+	background-color: navy;
+	color: white;
+	text-align: left;
+    grid-column: 1/3;
+	margin-top: 0;
+}
+
+.card{
+	background-color: white;
+	border: 5px;
+	border-style: solid;
+	border-color: navy;
+	border-radius: 10px;
+	margin: 15px;
+	max-width: 350px;
+}
+
+main {
+	display: grid;
+    grid-template-columns: 1;
+}
+
+p, a {
+	margin: 5px;
+}
+
+footer {
+	margin-top: 1rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: smaller;
+	text-align: right;
+}
+
+img{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}

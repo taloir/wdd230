@@ -29,6 +29,7 @@ h1{
     padding: 3px;
 }
 
+
 nav{
     display:grid;
     grid-template-rows: 5;
@@ -39,6 +40,7 @@ nav{
 }
 
 a{
+    display:none;
     color:aliceblue;
     text-align: center;
     margin: 15px;
@@ -63,6 +65,12 @@ h3{
 
 p{
     text-align: center;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 500px;
 }
 
 footer{

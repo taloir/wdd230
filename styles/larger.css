@@ -6,4 +6,16 @@
     nav {
         display: flex;
     }
+
+    #menu::before {
+        content: "";
+    }
+
+    a {
+        display: grid;
+    }
+
+    .active::before {
+        content: "👇";
+    }
 }

@@ -13,7 +13,8 @@
     <title>Landon McConnell - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="style/larger.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <meta property="og:title" content="Landon McConnell - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:image"
@@ -26,9 +27,11 @@
         <img src="images/me.jpg" alt="me">
         <h1>Landon A. McConnell</h1>
     </header>
-    <nav>
 
-        <li><a href="#">Home</a></li>
+    <button id="menu"></button>
+    <nav class="navigation">
+
+        <li><a href="#" class="active">Home</a></li>
         <li><a href="lesson02/design-principles.html">Design Principles</a></li>
         <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
         <li><a href="chamber/">Chamber</a></li>
@@ -43,26 +46,16 @@
         <section class="card">
             <h3>Learning activities</h3>
             <ul>
-                <li>01</li>
-                <a></a>
-                <li>02: </li>
-                <a></a>
-                <li>03</li>
-                <a></a>
-                <li>04</li>
-                <a></a>
-                <li>05</li>
-                <a></a>
-                <li>06</li>
-                <a></a>
-                <li>07</li>
-                <a></a>
-                <li>08</li>
-                <a></a>
-                <li>09</li>
-                <a></a>
-                <li>10</li>
-                <a></a>
+                <li>01 <a></a></li>
+                <li>02: <a></a></li>
+                <li>03 <a href="https://codepen.io/taloir-the-word-of-light/pen/WNmEWmg">pseudo element codepen</a></li>
+                <li>04 <a></a></li>
+                <li>05 <a></a></li>
+                <li>06 <a></a></li>
+                <li>07 <a></a></li>
+                <li>08 <a></a></li>
+                <li>09 <a></a></li>
+                <li>10 <a></a></li>
             </ul>
         </section>
         <section class="card">
@@ -72,9 +65,11 @@
             <p>etc</p>
         </section>
     </main>
+    <iframe src="https://maps.app.goo.gl/fy4VJfTCGKh85b2f9" title="map of hometown"></iframe>
     <footer>
         <p id="copyright">&copy;<span id="year">, Landon McConnell, NM</p>
         <p id="lastModified">Last modified: yes</p>
     </footer>
-    <script src="getDates.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>

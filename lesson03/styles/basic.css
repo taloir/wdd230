@@ -1,0 +1,33 @@
+div{
+    height:200px;
+    width: 200px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+}
+
+#color1{
+    background-color: #69C856;
+}
+
+#color2{
+    background-color: #9297C4;
+}
+
+#color3{
+    background-color: #F5ECFE;
+}
+
+#color4{
+    background-color: #3A405A;
+}
+
+div p{
+    background-color: white;
+    text-align: center;
+}
+
+paragraph{
+    font: helvetica;
+}

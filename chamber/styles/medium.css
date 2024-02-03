@@ -1,0 +1,26 @@
+@media screen and (min-width: 640px){
+    h1 {
+        font-size: 50px;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    #menu::before {
+        content: "";
+    }
+
+    a {
+        display: grid;
+    }
+
+    li{
+        margin: auto;
+        padding: 15px;
+    }
+
+    .active::before {
+        content: "👇";
+    }
+}

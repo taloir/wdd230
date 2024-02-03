@@ -1,0 +1,22 @@
+@media screen and (min-width: 1280px){
+    h1 {
+        font-size: 70px;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    #menu::before {
+        content: "";
+    }
+
+    a {
+        display: grid;
+    }
+
+    li{
+        margin: auto;
+        padding: 15px;
+    }
+}

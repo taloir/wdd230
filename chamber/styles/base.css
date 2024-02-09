@@ -11,6 +11,24 @@ header{
     margin: auto;
 }
 
+#dark{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+}
+
+#dark::before {
+    content: "☰";
+}
+
+#dark.drk::before {
+    content: "❎";
+}
+
 h1{
     font-size: 50px;
     text-align: center;
@@ -50,6 +68,12 @@ main{
     border-width: 100px;
     border-top: 0px;
     background-color: #F5ECFE;
+}
+
+#drk{
+    border-color: black;
+    background-color: #3A405A;
+    color: white;
 }
 
 div{

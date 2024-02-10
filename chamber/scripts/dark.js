@@ -1,8 +1,13 @@
-const darkButton = document.querySelector('#dark');
-const background = document.querySelector('main');
+const modeButton = document.querySelector("#mode");
+const darkSwitch = document.querySelector(".switch");
+const main = document.querySelector("main");
 
-darkButton.addEventListener('click', () => {
-	darkButton.classList.toggle('drk');
-    background.classList.toggle('drk');
-    background.style.backgroundColor('black');
+darkSwitch.addEventListener("click", () => {
+	if (modeButton.checked()) {
+		main.style.background = "#000";
+		main.style.color = "#fff";
+	} else {
+		main.style.backgroundColor =  "#F5ECFE";
+        main.style.color = "#000";
+	}
 });

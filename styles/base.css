@@ -29,6 +29,22 @@ h1{
     padding: 3px;
 }
 
+.hero{
+    position:relative;
+}
+
+.hero img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 270px;
+    left: 175px;
+    font-size: 8px;
+}
 
 nav{
     display:grid;

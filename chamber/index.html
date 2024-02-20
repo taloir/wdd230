@@ -38,7 +38,8 @@
             <li><a href="join.html">join</a></li>
         </nav>
         <div class="hero">
-            <img src="images/We_believe.jpg" alt="We believe mural">
+
+            <img src="images/Optimized-placeholder-heavy.webp" alt="We believe mural">
             <a href="" class="Call-to-action">One of us! One of us!</a>
         </div>
         <section class="events">
@@ -49,9 +50,20 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
-            <div class="card">This is a card</div>
-            <div class="card">This is a card</div>
-            <div class="card">This is a card</div>
+            <div class="card">
+                <p>current temperature</p>
+                <p is="temp">15</p>
+                <p>°F</p>
+            </div>
+            <div class="card">
+                <p>wind speed</p>
+                <p id="wind">10</p>
+                <p>mph</p>
+            </div>
+            <div class="card">
+                <p>windchill</p>
+                <p id="chill"></p>
+            </div>
         </section>
         <section class="spotlights">
             <h2>Spotlights</h2>
@@ -67,4 +79,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>

@@ -45,6 +45,9 @@ nav{
 }
 
 main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     border-style: solid;
     border-color: #3A405A;
     border-width: 100px;
@@ -160,7 +163,6 @@ footer{
     transform: translateX(26px);
   }
   
-  /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
   }
@@ -168,6 +170,24 @@ footer{
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .sidecard{
+    grid-column: 1;
+    background-color: #69C856;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 400px;
+}
+
+.hover{
+    grid-column: 2;
+    margin: 5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.hover:hover {box-shadow: 0 0 50px #333;}
 
 @media screen and (max-width: 640px){
     header{
@@ -206,5 +226,9 @@ footer{
 
     .open a {
         display: block;
+    }
+
+    .hover{
+        grid-column: 1;
     }
 }

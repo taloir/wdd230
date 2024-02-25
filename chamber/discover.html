@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="en-US">
+
+    </html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Roswell Chamber of Commerce home page">
+    <meta name="author" content="Landon A McConnell">
+    <title>Roswell Chamber of commerce home page - Landon McConnell - WDD 230</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta property="og:title" content="Roswell Chamber of commerce home page - Landon McConnell - WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://static01.nyt.com/images/2017/07/06/opinion/06roswell1/06roswell1-superJumbo.jpg">
+    <meta property="og:url" content="https://taloir.github.io/wdd230/chamber/">
+</head>
+
+<body>
+    <header>
+        <h1>Roswel Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <label class="switch">
+            <input type="checkbox" id="mode">
+            <span class="slider round"></span>
+        </label>
+        <nav class="navigation">
+            <li><a href="#">home</a></li>
+            <li><a href="discover.html">discover</a></li>
+            <li><a href="directory.html">directory</a></li>
+            <li><a href="join.html">join</a></li>
+        </nav>
+        <p class="visitMessage"></p>
+    </header>
+    <main>
+        <div class="sidecard">event calendar</div>
+        <div class="sidecard">attractions</div>
+        <div class="sidecard">statistics</div>
+        <div class="hover">
+            <img src="https://picsum.photos/400/600" loading="lazy">
+            <p>caption</p>
+        </div>
+        <div class="hover">
+            <img src="https://picsum.photos/400/600" loading="lazy">
+            <p>caption</p>
+        </div>
+        <div class="hover">
+            <img src="https://picsum.photos/400/600" loading="lazy">
+            <p>caption</p>
+        </div>
+        <div class="hover">
+            <img src="https://picsum.photos/400/600" loading="lazy">
+            <p>caption</p>
+        </div>
+        <div class="hover">
+            <img src="https://picsum.photos/400/600" loading="lazy">
+            <p>caption</p>
+        </div>
+        <div class="hover">
+            <img src="https://picsum.photos/400/600" loading="lazy">
+            <p>caption</p>
+        </div>
+    </main>
+    <footer>
+        <p>Landon McConnell</p>
+        <p>Project for WDD230</p>
+        <p id="lastModified">Goodbye world!!</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/setVisitMessage.js"></script>
+</body>

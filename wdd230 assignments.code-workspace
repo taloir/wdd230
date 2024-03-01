@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../form-start"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "form-start"
+	}
+}

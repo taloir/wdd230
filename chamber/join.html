@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="en-US">
+
+    </html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Roswell Chamber of Commerce home page">
+    <meta name="author" content="Landon A McConnell">
+    <title>Roswell Chamber of commerce home page - Landon McConnell - WDD 230</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta property="og:title" content="Roswell Chamber of commerce home page - Landon McConnell - WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://static01.nyt.com/images/2017/07/06/opinion/06roswell1/06roswell1-superJumbo.jpg">
+    <meta property="og:url" content="https://taloir.github.io/wdd230/chamber/">
+</head>
+
+<body>
+    <header>
+        <h1>Roswel Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <label class="switch">
+            <input type="checkbox" id="mode">
+            <span class="slider round"></span>
+        </label>
+        <nav class="navigation">
+            <li><a href="#">home</a></li>
+            <li><a href="discover.html">discover</a></li>
+            <li><a href="directory.html">directory</a></li>
+            <li><a href="join.html">join</a></li>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Username</legend>
+                <label class="top">First Name<input type="text" id="first" name="first" required></label>
+                <label class="top">Last Name<input type="text" id="last" name="first" required></label>
+                <label class="top">Title<input type="text" id="title" name="title" pattern="[a-zA-Z0-9- ]{7,}"
+                        required></label>
+                <label class="top">Email<input type="email" id="email" name="email" placeholder="" required></label>
+                <label class="top">Mobile Phone Number<input type="telephone" id="phone" name="phone" required></label>
+                <label class="top">Organization Name<input type="text" id="organization" name="organization"
+                        required></label>
+
+                <label class="sbs"><input type="radio" name="level" value="np">Non Profit</label>
+                <label class="sbs"><input type="radio" name="level" value="bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="level" value="silver">silver</label>
+                <label class="sbs"><input type="radio" name="level" value="gold">gold</label>
+
+                <label class="top">Organization Description<input type="textarea" id="description"
+                        name="description"></label>
+                <label class="top"><input type="hidden" id="time" name="time" value=""></label>
+
+                <label class="submit"><input type="submit" id="button" name="button" value="Join the Chamber"
+                        required></label>
+            </fieldset>
+        </form>
+
+        <div class="pitch">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</div>
+        <div class="pitch">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</div>
+        <div class="pitch">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</div>
+        <div class="pitch">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</div>
+
+    </main>
+    <footer>
+        <p>Landon McConnell</p>
+        <p>Project for WDD230</p>
+        <p id="lastModified">Goodbye world!!</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>

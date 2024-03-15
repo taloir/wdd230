@@ -155,3 +155,9 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
+
+figure{
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+}

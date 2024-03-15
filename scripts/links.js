@@ -6,16 +6,16 @@ const list = document.querySelector('.assignments');
 async function getLinkData(){
     const response = await fetch("data/links.json");
     const data = await response.json();
-    displayLinks(data);
+    displayLinks(data.lessons);
 }
 
-const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
-        const item = createElement(li);
-        item.setAttribute(Text, week.lesson);
-        const link = creatElement(a);
-        link.setAttribute(href,week.links[url]);
-        link.setAttribute(Text,week.links[title]);
+const displayLinks = (lessons) => {
+    lessons.forEach((week) => {
+        const item = document.createElement("li");
+        item.setAttribute("Text", week.lesson);
+        const link = document.createElement("a");
+        link.setAttribute("href",week.links[url]);
+        link.setAttribute("Text",week.links[title]);
 
         item.appendchild(link);
 

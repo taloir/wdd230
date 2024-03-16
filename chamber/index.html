@@ -24,6 +24,9 @@
 <body>
     <header>
         <h1>Roswel Chamber of Commerce</h1>
+        <div class="banner"><button id="close"></button>
+            <p>Join the Chamber of Commerce meet and greet on Wednesday at 7:00pm</p>
+        </div>
         <button id="menu"></button>
         <label class="switch">
             <input type="checkbox" id="mode">
@@ -51,8 +54,15 @@
             <h2>Weather</h2>
             <div class="card">
                 <p>current temperature</p>
-                <p is="temp">15</p>
-                <p>°F</p>
+                <p id="temp"><span id="current-temp"></span></p>
+
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <p>High:<span id="day1high"></span>F° Low:<span id="day1low"></span>F°</p>
+                <p>High:<span id="day2high"></span>F° Low:<span id="day2low"></span>F°</p>
+                <p>High:<span id="day3high"></span>F° Low:<span id="day3low"></span>F°</p>
             </div>
             <div class="card">
                 <p>wind speed</p>
@@ -79,5 +89,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dark.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>

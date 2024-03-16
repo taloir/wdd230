@@ -14,8 +14,8 @@ const displayLinks = (lessons) => {
         const item = document.createElement("li");
         item.setAttribute("Text", week.lesson);
         const link = document.createElement("a");
-        link.setAttribute("href",week.links[url]);
-        link.setAttribute("Text",week.links[title]);
+        link.setAttribute("href",week.links.url);
+        link.setAttribute("Text",week.links.title);
 
         item.appendchild(link);
 
